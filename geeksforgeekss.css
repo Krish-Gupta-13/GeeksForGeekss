@@ -1,0 +1,390 @@
+*{
+    padding: 0x;
+    margin: 0px;
+    scroll-behavior : smooth;
+    /* background-color: rgb(241, 229, 229); */
+}
+
+#navi{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1333;
+}
+#carouselExampleIndicators{
+    padding-top: 4rem;
+}
+
+.navbar .d-grid{
+    width: 22rem;
+    color: #273239;
+    /* background-color: #273239; */
+}
+.navbar .d-flex{
+    width: 18rem;
+}
+.navbar img{
+    padding-right: 24rem;
+}
+
+.navbar a:hover{
+    color: #308d46;
+}
+#navbarNav ul li a:hover{
+    color: #308d46;
+}
+#card11{
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(241, 229, 229);
+}
+
+#card22{
+    position: relative;
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(241, 229, 229);
+}
+#card33{
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(241, 229, 229);
+    /* padding-bottom: 6rem; */
+}
+
+
+.card-1{
+    padding-left: 4rem;
+}
+.card-2{
+    padding-left: 5rem;
+}
+.card-3{
+    padding-left: 5rem;
+}
+.card-4{
+    padding-left: 5rem;
+}
+
+.algo .card-1{
+    padding-left: 0rem;
+}
+.algo .card-2{
+    padding-left: 0rem;
+}
+.algo .card-3{
+    padding-left: 0rem;
+}
+.card-body h5{
+    text-align: center;
+    align-items: center;
+}
+
+.company{
+    background-color: rgb(241, 229, 229);
+}
+.datastruct{
+    background-color: rgb(241, 229, 229);
+}
+
+#card33 img{
+    padding-left: 3rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    /* border-bottom-right-radius: 1rem; */
+}
+.datastruct img{
+    color: white;
+    /* background-color: white; */
+    /* margin: 3rem; */
+
+}
+.company .card-4{
+    padding-left: 2rem;
+
+}
+
+.company h2{
+    padding-left: 5.5rem;
+}
+#rowie .courses h2{
+    padding-left: 1.8rem;
+    padding-bottom: 1rem;
+}
+.datastruct h2{
+    padding-left: 5.6rem;
+}
+
+.algo h2{
+    padding-left: 5.6rem;
+}
+
+
+
+#card33 img{
+    height: 8rem;
+    width: 18rem;
+}
+
+/* #card33 img:hover{
+    height: 10rem;
+    width: 20rem;
+    transition: .7s;
+} */
+
+
+/* <---------------------------Slider---------------------------< */
+.carousel-inner img{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+
+/* <--------------------------Courses--------------------------> */
+
+
+.course-col{
+    width: 75rem;
+    padding-left: 4rem;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* .course-col .card-bottom{ */
+
+    /* padding-top: 10rem; */
+    /* margin-top: 10rem; */
+/* } */
+
+.col-1 .card-title{
+    padding-right: 4rem;
+    
+}
+.col-2 .card-title{
+    padding-right: 4rem;
+}
+.col-3 .card-title{
+    padding-right: 4rem;
+}
+
+.col-1 .btn{
+    height: 1.5rem;
+    margin: auto;
+    padding-bottom:30px;
+    font-size: 1rem;
+    background-color: #B7DEC1;
+}
+
+
+
+.col-2 .btn{
+    height: 1.5rem;
+    margin: auto;
+    padding-bottom:30px;
+    font-size: 1rem;
+    background-color: #B7DEC1;
+}
+.col-3 .btn{
+    height: 1.5rem;
+    margin: auto;
+    padding-bottom:30px;
+    font-size: 1rem;
+    background-color: #B7DEC1;
+}
+
+
+.col-1 p span{
+    color: #39464E;
+    opacity: 0.6;
+}
+.col-2 p span{
+    color: #39464E;
+    opacity: 0.6;
+}
+.col-3 p span{
+    color: #39464E;
+    opacity: 0.6;
+}
+
+
+
+
+
+/* <--------------------------rowie--------------------------> */
+
+
+
+
+
+#rowie{
+    /* padding: 2rem; */
+    margin: 2rem;
+}
+
+#rowie .col-1{
+    padding-left: 1rem;
+}
+#rowie .col-2{
+    padding-left: 1rem;
+}
+#rowie .col-3{
+    padding-left: 1rem;
+}
+#rowie .col-4{
+    padding-left: 1rem;
+}
+#rowie .card-title{
+    text-align: left;
+}
+#rowie .d-grid{
+    padding-top: -2rem;
+}
+
+#rowie h5{
+    margin-bottom: 1rem;
+    padding-top: rem;
+}
+#rowie .courses h2{
+   padding-left: 5rem;
+}
+
+.titflex{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* <------------------------------------bottom-points--------------------------> */
+
+
+
+
+
+
+.bottom{
+    color: #696969;
+    display: flex;
+    padding-left: 4rem;
+}
+
+.bottom-left img{
+    padding: .2rem;
+    height: 2.6rem;
+    color: #696969;
+    cursor: pointer;
+}
+
+.bottom-left .bottom-top img{
+    opacity: .6;
+
+}
+
+.bottom-top img:hover{
+    color: blue;
+}
+.bottom-left p img{
+    color: green;
+    height: 2rem;
+}
+
+.bottom-left a{
+    text-decoration: none;
+    color: black;
+}
+
+.bottom-left a:hover{
+    color: #308d46;
+}
+
+.bottom-left p{
+    padding-top: 1rem;
+    /* padding-bottom: 3rem; */
+}
+.bottom-points{
+    display: flex;
+    padding-left: 4rem;
+    
+}
+
+.bottom-points ul li{
+    font-size: .9rem;
+    list-style-type: none;
+    /* letter-spacing: 1px; */
+    line-height: 1.6rem;
+}
+
+.bottom-points ul li:hover{
+    color: #308d46;
+    cursor: pointer;
+}
+.bottom-points ul{
+    padding-left: 6rem;
+}
+
+.bottom-points h4{
+    font-size: 1.3rem;
+    color: #308d46;
+}
+.bottom-points{
+    padding-left: 3rem;
+}
+
+.bottom-top img:hover{
+    color: #308d46;
+    opacity: 1;
+    /* background-color: rgb(48, 48, 82); */
+    
+}
+
+
+
+
+/* <-------------------------------------footer---------------------------------------------> */
+
+
+
+
+
+footer{
+    padding-top: 1rem;
+}
+.footer-mail{
+    /* height: 49rem; */
+    background-color: #308d46;
+}
+.foot .footer-mail{
+    height: 40px;
+}
+.foot .footer-mail{
+    padding-top: 6px;
+}
+.foot .footer-mail a{
+    color: white;
+    padding-left: 2rem;
+    text-decoration: none;
+
+}
+.foot .footer-mail:hover{
+    cursor: pointer;
+}
+
+/* height: 160px;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 5px 0px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0 rgb(0 0 0 / 18%); */
